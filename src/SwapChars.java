@@ -11,12 +11,14 @@ public class SwapChars {
 	}
 
 	public static String swap2(String str) {
-		// TODO Auto-generated method stub
 		
-		char char1 = str.charAt(0);
-		char char2 = str.charAt(1);
-		
-		return "" + char2 +char1;
+		int strLength = str.length();
+		char lastCharacter = str.charAt(strLength-1);
+		char secondToLastCharacter = str.charAt(strLength-2);
+	    return "" + lastCharacter +secondToLastCharacter;
+	    
+	    
 	}
+	
 
 }

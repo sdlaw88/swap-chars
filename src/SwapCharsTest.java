@@ -10,7 +10,7 @@ class SwapCharsTest {
 	}
 		@Test
 		void swapStringWith6Chars() {
-			assertEquals("AB",SwapChars.swap2("BA"));
+			assertEquals("fe",SwapChars.swap2("abcdef"));
 	
 }
 }
